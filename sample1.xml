@@ -1,0 +1,62 @@
+<SlideShow>
+  <Slides>
+    <Slide>
+      <Title>First page</Title>
+      <Region>
+        <Meta>
+        </Meta>
+        <Block Numbering="bullet">
+          <Item>
+            <Para>
+              <Fragment>This is a list item with a sublist</Fragment>
+            </Para>
+            <SubList>
+              <Item>
+                <Fragment>this is a sublist item</Fragment>
+              </Item>
+              <Item>
+                <Fragment>this is another one</Fragment>
+              </Item>
+            </SubList>
+          </Item>
+          <Item>
+            <Para>
+              <Fragment>This is another list item</Fragment>
+            </Para>
+          </Item>
+        </Block>
+      </Region>
+    </Slide>
+    <Slide>
+      <Title>Second page</Title>
+      <Region>
+        <Meta>
+        </Meta>
+        <Block Numbering="none">
+          <Item>
+            <Para>
+              <Fragment>This is a Paragraph with no bullets. Below is a second region with a Title and an Image.</Fragment>
+            </Para>
+          </Item>
+        </Block>
+      </Region>
+      <Region>
+        <Meta>
+        </Meta>
+        <Block Numbering="none">
+          <Item>
+            <Title>Secondary Title</Title>
+            <Illustration Source="images/spider.jpg">
+              <Legend>
+                <Fragment>This is not spiderman !</Fragment>
+              </Legend>
+              <Meta>
+                <Width>50</Width>
+              </Meta>
+            </Illustration>
+          </Item>
+        </Block>
+      </Region>
+    </Slide>
+  </Slides>
+</SlideShow>
